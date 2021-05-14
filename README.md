@@ -8,11 +8,11 @@ Save the files in a directory and run the following commands:
 
 # Grammar for Faux Racket
 ‹expr› ::= ‹num›
-         | ‹var›
-         | (+ ‹expr› ‹expr› )
-         | (* ‹expr› ‹expr› )
-         | (- ‹expr› ‹expr› )
-         | (/ ‹expr› ‹expr› )
-         | ( ‹expr› ‹expr› )
-         | (fun ( ‹var› ) ‹expr› )
-         | (with (( ‹var› ‹expr› )) ‹expr› )
+          | ‹var›
+          | (+ ‹expr› ‹expr› )
+          | (* ‹expr› ‹expr› )
+          | (- ‹expr› ‹expr› )
+          | (/ ‹expr› ‹expr› )
+          | ( ‹expr› ‹expr› )
+          | (fun ( ‹var› ) ‹expr› )
+          | (with (( ‹var› ‹expr› )) ‹expr› )
