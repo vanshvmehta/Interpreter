@@ -7,12 +7,15 @@ Save the files in a directory and run the following commands:
   2) ./out                        (To run the compiled files)
 
 # Grammar for Faux Racket
-‹expr› ::= ‹num›  \n
-          | ‹var› \n
-          | (+ ‹expr› ‹expr› )  \n
-          | (* ‹expr› ‹expr› )  \n
-          | (- ‹expr› ‹expr› )  \n
-          | (/ ‹expr› ‹expr› )  \n
-          | ( ‹expr› ‹expr› )   \n
-          | (fun ( ‹var› ) ‹expr› ) \n
-          | (with (( ‹var› ‹expr› )) ‹expr› ) \n
+‹expr› ::= ‹num›
+        | ‹var›
+        | (+ ‹expr›
+‹expr› ::= ‹num›
+          | ‹var›
+          | (+ ‹expr› ‹expr› )
+          | (* ‹expr› ‹expr› )
+          | (- ‹expr› ‹expr› )
+          | (/ ‹expr› ‹expr› )
+          | ( ‹expr› ‹expr› )
+          | (fun ( ‹var› ) ‹expr› )
+          | (with (( ‹var› ‹expr› )) ‹expr› )
